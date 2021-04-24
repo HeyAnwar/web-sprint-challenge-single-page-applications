@@ -121,6 +121,7 @@ const PizzaForm = () => {
                 </label>
                 <label>
                     <div id='size-dropdown'>
+                    <h2>Size</h2>
                     <select
                         name='size'
                         value={order.size}

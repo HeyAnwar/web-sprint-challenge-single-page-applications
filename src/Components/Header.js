@@ -9,8 +9,8 @@ const PizzaHeader  = () => {
             <div className='nav'>
                 <nav>
                     <Link to='/'><h1 id='home'>Anwar's Pizza</h1></Link>
-                    <Link to='./Components/PizzaForm'><h2 id='order-pizza'>Order online</h2></Link>
-                    <Route path={'./Components/PizzaForm'}>
+                    <Link to='./PizzaForm'><h2 id='order-pizza'>Order Pizza</h2></Link>
+                    <Route path='/PizzaForm'>
                         <PizzaForm/>
                     </Route>
                 </nav>
